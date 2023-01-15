@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+body{
+    background-image: linear-gradient(to right, red , yellow);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1{
+    font-size: 5rem;
+    color: #343c53;
+    text-shadow: 3px 0 #fff;
+    margin-top: 3%;
+  
+}
+
+#drumButtons{
+    margin: 10% auto;
+}
+
+.drum {
+    outline: none;
+    border: 10px solid #343c53;
+    font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+    font-weight: 910;
+    color: #cc055f;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: #fff;
+  }
